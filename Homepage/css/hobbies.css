@@ -82,7 +82,7 @@ a:active {
 }
 
 .sidebartab {
-    height: 143px;
+    height: 138px;
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -91,12 +91,18 @@ a:active {
 }
 
 #sidebartab1 {
-    background-color: #777;
+    background-color: #666;
 }
 #sidebartab2 {
-    background-color: #999;
+    background-color: #777;
 }
 #sidebartab3 {
+    background-color: #888;
+}
+#sidebartab4 {
+    background-color: #999;
+}
+#sidebartab5 {
     background-color: #aaa;
 }
 
