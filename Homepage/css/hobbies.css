@@ -115,6 +115,11 @@ a:active {
     padding: 40px;
 }
 
+.introduction {
+    width: inherit;
+    border: 2px solid black;
+}
+
 .introduction p {
     padding-bottom: 40px;
 }
@@ -122,11 +127,20 @@ a:active {
 .skiing {
     width: inherit;
     border: 2px solid black;
+    text-align: center;
 }
 
-.skivideo {
-    width: 100%;
-    height: 550px;
+.skimedia {
+    display: flex;
+    justify-content: center;
+}
+
+.skivideo video{
+    width: 50%;
+}
+
+.skiphoto img {
+    width: 50%;
 }
 
 .speedcubing {

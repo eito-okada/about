@@ -109,6 +109,16 @@ a:active {
     padding: 40px;
 }
 
+.introduction {
+    width: inherit;
+    border: 2px solid black;
+}
+
+.introduction {
+    width: inherit;
+    border: 2px solid black;
+}
+
 .introduction p {
     padding-bottom: 40px;
 }
