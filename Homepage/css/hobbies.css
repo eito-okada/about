@@ -146,6 +146,20 @@ a:active {
 .speedcubing {
     width: inherit;
     border: 2px solid black;
+    text-align: center;
+}
+
+.speedcubingmedia {
+    display: flex;
+    justify-content: center;
+}
+
+.speedcubingvideo video{
+    width: 50%;
+}
+
+.speedcubingphoto img {
+    width: 50%;
 }
 
 .bowling {
