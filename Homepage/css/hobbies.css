@@ -121,33 +121,19 @@ a:active {
     padding-bottom: 40px;
 }
 
-.hobbies {
+.skiing {
     width: inherit;
     border: 2px solid black;
 }
 
-.history {
+.speedcubing {
     width: inherit;
     border: 2px solid black;
 }
 
-.history img {
-    width: 100%;
-    padding-bottom: 40px;
-}
-
-.about {
+.bowling {
     width: inherit;
     border: 2px solid black;
-}
-
-.about p {
-    padding-bottom: 40px;
-}
-
-.about img {
-    width: calc(80% / 3);
-    padding-bottom: 40px;
 }
 
 .footer {
