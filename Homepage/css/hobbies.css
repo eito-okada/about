@@ -71,6 +71,8 @@ a:active {
     position: relative;
     top: 78px;
     height: 714px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .sidebar {
