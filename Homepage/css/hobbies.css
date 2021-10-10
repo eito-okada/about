@@ -125,42 +125,42 @@ a:active {
 }
 
 .skiing {
-    width: inherit;
+    width: 100%;
     border: 2px solid black;
-    text-align: center;
 }
 
-.skimedia {
-    display: flex;
-    justify-content: center;
+.skimedia{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
 }
 
-.skivideo video{
-    width: 50%;
+.skimedia video {
+    width: 100%;
 }
 
-.skiphoto img {
-    width: 50%;
+.skimedia img {
+    width: 100%;
 }
 
 .speedcubing {
     width: inherit;
     border: 2px solid black;
-    text-align: center;
 }
 
 .speedcubingmedia {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.speedcubingmedia video{
+    width: 100%;
 }
 
-.speedcubingvideo video{
-    width: 50%;
+.speedcubingmedia img {
+    width: 100%;
 }
 
-.speedcubingphoto img {
-    width: 50%;
-}
 
 .bowling {
     width: inherit;
@@ -210,4 +210,8 @@ a:active {
     width: 40px;
     padding-left: 10px;
     float: right;
+}
+
+.footer-copyright {
+    padding-top: 240px;
 }
