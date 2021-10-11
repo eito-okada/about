@@ -167,6 +167,20 @@ a:active {
     border: 2px solid black;
 }
 
+.bowlingmedia {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.bowlingmedia video {
+    width: 100%;
+}
+
+.bowlingmedia img {
+    width: 100%;
+}
+
 .tableTennis {
     width: inherit;
     border: 2px solid black;
