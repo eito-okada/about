@@ -32,11 +32,36 @@ a:active {
     background-color: #bbb;
 }
 
+
 .logo {
-    font-size: 48px;
-    text-align: center;
+    display: flex;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.logo a {
+    width: 8ch;
+    animation: typing 1.2s steps(8), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
 
 .headerbar ul {
     list-style-type: none;
