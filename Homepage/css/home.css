@@ -1,12 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #bbb;
     color: #333;
     text-align: center;
     margin: 0px;
-    scroll-behavior: smooth;
 }
-
 a:link {
     color: black;
     text-decoration: none;
