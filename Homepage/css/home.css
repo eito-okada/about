@@ -113,11 +113,7 @@ a:active {
 .introduction {
     width: inherit;
     border: 2px solid black;
-}
-
-.introduction {
-    width: inherit;
-    border: 2px solid black;
+    scroll-snap-type: y mandatory;
 }
 
 .introduction p {
@@ -127,11 +123,13 @@ a:active {
 .hobbies {
     width: inherit;
     border: 2px solid black;
+    scroll-snap-type: y mandatory;
 }
 
 .history {
     width: inherit;
     border: 2px solid black;
+    scroll-snap-type: y mandatory;
 }
 
 .history img {
@@ -142,6 +140,7 @@ a:active {
 .about {
     width: inherit;
     border: 2px solid black;
+    scroll-snap-type: y mandatory;
 }
 
 .about p {
