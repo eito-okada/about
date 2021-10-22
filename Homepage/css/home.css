@@ -128,7 +128,7 @@ a:active {
     width: 100%;
     overflow: auto;
     scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
+    scroll-snap-type:y mandatory;
 }
 
 .content h2 {
@@ -139,6 +139,7 @@ a:active {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
 
@@ -147,14 +148,14 @@ a:active {
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
     height: 460px;
-
-
+    scroll-snap-align: start;
 }
 
 .history {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
 .history img {
@@ -166,6 +167,7 @@ a:active {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
 .about p {
