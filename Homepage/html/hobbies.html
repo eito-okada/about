@@ -5,13 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/hobbies.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="../slick/example.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
@@ -19,9 +16,9 @@
 </head>
 <body>
     <div class="header">
-        <div class="logo">
-            <a href="home.html">About Me</a>
-        </div>
+            <div class="logo">
+                <a href="home.html">About Me</a>
+            </div>
         <div class="headerbar">
             <ul>
                 <a href="home.html" class="headertab"><li id="headertab1">Home</li></a>
@@ -34,79 +31,140 @@
     <div class="main">
         <div class="sidebar">
             <ul>
-                <a href="#hobbies"><li class="sidebartab" id="sidebartab1">Hobbies</li></a>
-                <a href="#history"><li class="sidebartab" id="sidebartab2">History</li></a>
-                <a href="#about"><li class="sidebartab" id="sidebartab3">About Me</li></a>
+                <a href="#skiing"><li class="sidebartab" id="sidebartab1">Skiing</li></a>
+                <a href="#speedcubing"><li class="sidebartab" id="sidebartab2">Speedcubing</li></a>
+                <a href="#bowling"><li class="sidebartab" id="sidebartab3">Bowling</li></a>
+                <a href="#tableTennis"><li class="sidebartab" id="sidebartab4">Table Tennis</li></a>
+                <a href="#baseball"><li class="sidebartab" id="sidebartab5">Baseball</li></a>
             </ul>
         </div>
         <div class="content">
             <div class="introduction">
-                    <h2>Introduction</h2>
+                <h2>Introduction</h2>
                 <p>Hello, my name is Eito Okada. Nice to meet you, readers!</p>
             </div>
-            <div class="hobbies" id="hobbies">
-                    <h2>My Hobbies</h2>
-                <ul class="slider">
-                    <li><img src="../Public/home/Ski.jpeg" alt="">Skiing</li>
-                    <li><img src="../Public/home/Speedcubing.jpeg" alt="">Speedcubing</li>
-                    <li><img src="../Public/home/Bowling.jpeg" alt="">Bowling</li>
-                    <li><img src="../Public/home/tableTennis.jpeg" alt="">Table Tennis</li>
-                    <li><img src="../Public/home/Baseball.jpeg" alt="">Baseball</li>
-                </ul>
-                
-            </div>
-            <div class="history" id="history">
-
-                        <h2>My History</h2>
-
-                <img src="../Public/home/Timeline.jpeg">
-                </div>
-            <div class="about" id="about">
-                    <h2>About Me</h2>
-                <img src="../Public/home/hiroogakuen.jpeg" alt="hiroo gakuen">
-                <img src="../Public/home/html.jpeg" alt="HTML">
-                <img src="../Public/home/css.jpeg" alt="CSS">
+            <div class="skiing" id="skiing">
+                <h2>Skiing</h2>
                 <p>
-                    My name is Eito Okada,
-                    and I am an M1 student in Hiroo Gakuen Middle School.
+                    One of my hobbies is to ski, and I improve every year. 
+                    After coming back to Japan, I ski at Mount Norikura in Nagano.
                     <br>
-                    I like programming, and I have recently been learning the C language.
-                    I can write decent HTML and CSS code as well.
+                    I first learned how to ski at a ski camp in New York, and I have skied at many places such as
                     <br>
-                    My dreams for the future are to enter MIT and work as a programmer.
+                    <a href="https://www.mtpeter.com/" target="_blank">Mount Peter</a>, 
+                    <a href="https://www.belleayre.com/" target="_blank">Belleayre Mountain</a>, 
+                    <a href="https://thunderridgeski.com/" target="_blank">Thunder Ridge Ski Area</a>, 
+                    <a href="https://www.mountaincreek.com/" target="_blank">Mountain Creek</a>, 
+                    <a href="https://www.qkamura.or.jp/norikura/ski/" target="_blank">Mount Norikura</a>,
+                    and more.
                 </p>
-                <img src="../Public/home/c.jpeg" alt="C language">
-                <img src="../Public/home/mit.jpeg" alt="Massachusetts Institute of Technology">
-                <img src="../Public/home/programming.jpeg" alt="Programming">
+                    <div class="skimedia">
+                        <p>Here is a footage of me skiing in February 2021:</p>
+                        <video controls autoplay loop muted>
+                            <source src="../Public/hobbies/ski.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="skimedia">
+                        <p>And here is a photo of me at Mount Norikura.</p>
+                        <img src="../Public/hobbies/Ski.jpeg" alt="Skiing">
+                    </div>
+            </div>
+            <div class="speedcubing" id="speedcubing">
+                <h2>Speedcubing</h2>
+                <p>
+                    Speedcubing is a sport that races how fast one can solve a Rubik's cube.
+                    <br>
+                    I can solve a 3x3 cube in about 15 seconds.
+                </p>
+                <div class="speedcubingmedia">
+                    
+                        <p>A video of my 3x3 solve</p>
+                        <video controls autoplay loop muted>
+                            <source src="../Public/hobbies/solve.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                </div>
+                    <div class="speedcubingmedia">
+                        <p>A photo of me at a competition</p>
+                        <img src="../Public/hobbies/comp.jpeg" alt="">
+                    </div>
+                    <div class="speedcubingmedia">
+                        <p>A photo of me at Mount Norikura</p>
+                        <img src="../Public/hobbies/speedcubing.jpg" alt="">
+                    </div>
+                </div>
+            <div class="bowling" id="bowling">
+                <h2>Bowling</h2>
+                <p>I started bowling in spring of 2021.
+                    <br>Although I was not the best at first, I have gotten a lot better since then,
+                    <br>and my best score is 192 as of October 2021.
+                </p>
+                <div class="bowlingmedia">
+                    <p>Me, bowling (Watch until the very end!)</p>
+                    <video controls autoplay loop muted>
+                        <source src="../Public/hobbies/bowling.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="bowlingmedia">
+                    <p>My second best score(I couldn't find a photo for 192)</p>
+                    <img src="../Public/hobbies/bowling.jpg" alt="">
+                    <p>
+                        One double and one turkey.
+                        I hope to someday acheive a score of 200!
+                    </p>
+                </div>
+            </div>
+            <div class="tableTennis" id="tableTennis">
+                <h2>Table Tennis</h2>
+                <p>I like playing Table Tennis.</p>
+            </div>
+            <div class="baseball" id="baseball">
+                <h2>Baseball</h2>
+                <p>
+                    I started playing baseball when I was 8 years old.
+                    <br>
+                    I got to join a travel team, and played in tournaments and won in some.
+                    Our team placed second in New York State and won in a championship.
+                </p>
+                <div class="baseballmedia">
+                    <p>The All-Star Game</p>
+                    <img src="../Public/hobbies/baseball.jpeg" alt="">
+                </div>
+                <div class="baseballmedia">
+                    <p>A party after winning the Kensico Cup</p>
+                    <img src="../Public/hobbies/tournament.jpeg" alt="">
+                </div>
+                <div class="baseballmedia">
+                    <p>My uniform while playing in Japan</p>
+                    <img src="../Public/hobbies/mates.jpeg" alt="">
+                </div>
             </div>
         </div>
     </div>
     <div class="footer">
-        <div class="footer-logo">
-            <a href="home.html">About Me</a>
+            <div class="footer-logo">
+                <a href="home.html">About Me</a>
+            </div>
+            <div class="footer-link">
+                <a href="home.html">Home</a>
+                <br>
+                <a href="hobbies.html">Hobbies</a>
+                <br>
+                <a href="history.html">History</a>
+                <br>
+                <a href="about.html">About</a>
+                <br>
+                <a href="gallery.html">Photo Gallery</a>
+            </div>
+            <div class="footer-social">
+                <p>Follow me on social media:</p>
+                <a href="https://twitter.com/abc_cubing" target="_blank"><img src="../../Homepage/Public/twitter.jpeg" alt="Twitter"></a>
+                <a href="https://github.com/eito-okada" target="_blank"><img src="../../Homepage/Public/github.jpeg" alt="GitHub"></a>
+            </div>
+            <div class="footer-copyright">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+            </div>
         </div>
-        <div class="footer-link">
-            <a href="home.html">Home</a>
-            <br>
-            <a href="hobbies.html">Hobbies</a>
-            <br>
-            <a href="history.html">History</a>
-            <br>
-            <a href="about.html">About</a>
-            <br>
-            <a href="gallery.html">Photo Gallery</a>
-        </div>
-        <div class="footer-social">
-            <p>Follow me on social media:</p>
-            <a href="https://twitter.com/abc_cubing"><img src="../Public/twitter.jpeg" alt="Twitter"></a>
-            <a href="https://github.com/eito-okada"><img src="../Public/github.jpeg" alt="GitHub"></a>
-        </div>
-        <div class="footer-copyright">
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="../slick/example.js"></script>
 </body>
 </html>
