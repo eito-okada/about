@@ -5,6 +5,7 @@ body {
     text-align: center;
     margin: 0px;
 }
+
 a:link {
     color: black;
     text-decoration: none;
@@ -39,12 +40,12 @@ a:active {
 }
 
 .logo a {
-    width: 8.2ch;
+    width: 8ch;
     animation: typing 2s steps(8), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    font-family: monospace;
+    font-family: 'Major Mono Display', monospace;
     font-size: 3em;
 }
 
@@ -105,7 +106,7 @@ a:active {
 }
 
 .sidebartab {
-    height: 238px;
+    height: calc(714px / 3);
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -128,7 +129,7 @@ a:active {
     width: 100%;
     overflow: auto;
     scroll-behavior: smooth;
-    scroll-snap-type:y mandatory;
+    scroll-snap-type:y proximity;
 }
 
 .content h2 {
@@ -147,7 +148,6 @@ a:active {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
-    height: 460px;
     scroll-snap-align: start;
 }
 

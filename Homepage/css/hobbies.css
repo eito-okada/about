@@ -4,7 +4,6 @@ body {
     color: #333;
     text-align: center;
     margin: 0px;
-    scroll-behavior: smooth;
 }
 
 a:link {
@@ -43,11 +42,11 @@ a:active {
 
 .logo a {
     width: 8ch;
-    animation: typing 1.2s steps(8), blink .5s step-end infinite alternate;
+    animation: typing 2s steps(8), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    font-family: monospace;
+    font-family: 'Major Mono Display', monospace;
     font-size: 3em;
 }
 
@@ -108,7 +107,7 @@ a:active {
 }
 
 .sidebartab {
-    height: 138px;
+    height: calc(714px / 5);
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -133,8 +132,11 @@ a:active {
 }
 
 .content {
+    height: 100%;
     width: 100%;
     overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type:y proximity;
 }
 
 .content h2 {
@@ -144,15 +146,15 @@ a:active {
 .introduction {
     width: inherit;
     border: 2px solid black;
-}
-
-.introduction p {
-    padding-bottom: 40px;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
 .skiing {
-    width: 100%;
+    width: inherit;
     border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
 .skimedia{
@@ -172,6 +174,8 @@ a:active {
 .speedcubing {
     width: inherit;
     border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
 .speedcubingmedia {
@@ -191,6 +195,8 @@ a:active {
 .bowling {
     width: inherit;
     border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
 .bowlingmedia {
@@ -210,11 +216,15 @@ a:active {
 .tableTennis {
     width: inherit;
     border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
 .baseball {
     width: inherit;
     border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
 
