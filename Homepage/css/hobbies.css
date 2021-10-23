@@ -66,6 +66,8 @@ a:active {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    padding: 0px;
+    margin: 0px;
 }
 
 .headertab {
@@ -104,6 +106,8 @@ a:active {
 
 .sidebar ul {
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .sidebartab {
