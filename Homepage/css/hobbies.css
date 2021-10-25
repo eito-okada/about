@@ -31,6 +31,7 @@ a:active {
     background-color: #bbb;
 }
 
+
 .logo {
     display: flex;
     height: 60px;
@@ -66,6 +67,8 @@ a:active {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    padding: 0px;
+    margin: 0px;
 }
 
 .headertab {
@@ -104,10 +107,12 @@ a:active {
 
 .sidebar ul {
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .sidebartab {
-    height: calc(714px / 3);
+    height: calc(714px / 5);
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -116,12 +121,18 @@ a:active {
 }
 
 #sidebartab1 {
-    background-color: #777;
+    background-color: #666;
 }
 #sidebartab2 {
-    background-color: #999;
+    background-color: #777;
 }
 #sidebartab3 {
+    background-color: #888;
+}
+#sidebartab4 {
+    background-color: #999;
+}
+#sidebartab5 {
     background-color: #aaa;
 }
 
@@ -144,41 +155,92 @@ a:active {
     scroll-snap-align: start;
 }
 
-
-.hobbies {
+.skiing {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
     scroll-snap-align: start;
 }
 
-
-.history {
-    width: inherit;
-    border: 2px solid black;
-    padding: 60px 0px 60px 0px;
-    scroll-snap-align: start;
+.skimedia{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
 }
 
-.history img {
+.skimedia video {
     width: 100%;
-    padding-bottom: 40px;
 }
 
-.about {
+.skimedia img {
+    width: 100%;
+}
+
+.speedcubing {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
     scroll-snap-align: start;
 }
 
-.about p {
-    padding-bottom: 40px;
+.speedcubingmedia {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.speedcubingmedia video{
+    width: 100%;
 }
 
-.about img {
-    width: calc(80% / 3);
-    padding-bottom: 40px;
+.speedcubingmedia img {
+    width: 100%;
+}
+
+
+.bowling {
+    width: inherit;
+    border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
+}
+
+.bowlingmedia {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.bowlingmedia video {
+    width: 100%;
+}
+
+.bowlingmedia img {
+    width: 100%;
+}
+
+.tableTennis {
+    width: inherit;
+    border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
+}
+
+.baseball {
+    width: inherit;
+    border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
+}
+
+
+.baseballmedia {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.baseballmedia img {
+    width: 100%;
 }
 
 .footer {
