@@ -31,6 +31,7 @@ a:active {
     background-color: #bbb;
 }
 
+
 .logo {
     display: flex;
     height: 60px;
@@ -66,6 +67,8 @@ a:active {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    padding: 0px;
+    margin: 0px;
 }
 
 .headertab {
@@ -104,10 +107,12 @@ a:active {
 
 .sidebar ul {
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .sidebartab {
-    height: calc(714px / 3);
+    height: calc(714px / 4);
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -116,13 +121,16 @@ a:active {
 }
 
 #sidebartab1 {
-    background-color: #777;
+    background-color: #666;
 }
 #sidebartab2 {
-    background-color: #999;
+    background-color: #777;
 }
 #sidebartab3 {
-    background-color: #aaa;
+    background-color: #888;
+}
+#sidebartab4 {
+    background-color: #999;
 }
 
 .content {
@@ -144,41 +152,57 @@ a:active {
     scroll-snap-align: start;
 }
 
+.c1 {
+    width: inherit;
+    border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
+    height: 200px;
+}
 
-.hobbies {
+.daikanyamaJ {
+    display: none;
+}
+
+.c1 .daikanyama:hover .daikanyamaE{
+    display: none;
+}
+
+.c1 .daikanyama:hover .daikanyamaJ {
+    display: inline-block;
+}
+
+.sakurashinmachiJ {
+    display: none;
+}
+
+.c1 .sakurashinmachi:hover .sakurashinmachiE{
+    display: none;
+}
+
+.c1 .sakurashinmachi:hover .sakurashinmachiJ {
+    display: inline-block;
+}
+
+.c2{
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
     scroll-snap-align: start;
 }
 
-
-.history {
+.c3 {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
     scroll-snap-align: start;
 }
 
-.history img {
-    width: 100%;
-    padding-bottom: 40px;
-}
-
-.about {
+.c4 {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
     scroll-snap-align: start;
-}
-
-.about p {
-    padding-bottom: 40px;
-}
-
-.about img {
-    width: calc(80% / 3);
-    padding-bottom: 40px;
 }
 
 .footer {
