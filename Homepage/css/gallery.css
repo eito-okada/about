@@ -31,6 +31,7 @@ a:active {
     background-color: #bbb;
 }
 
+
 .logo {
     display: flex;
     height: 60px;
@@ -66,6 +67,8 @@ a:active {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    padding: 0px;
+    margin: 0px;
 }
 
 .headertab {
@@ -98,38 +101,11 @@ a:active {
     height: 714px;
 }
 
-.sidebar {
-    width: 20%;
-}
-
-.sidebar ul {
-    list-style-type: none;
-}
-
-.sidebartab {
-    height: calc(714px / 3);
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-}
-
-#sidebartab1 {
-    background-color: #777;
-}
-#sidebartab2 {
-    background-color: #999;
-}
-#sidebartab3 {
-    background-color: #aaa;
-}
 
 .content {
     height: 100%;
     width: 100%;
     overflow: auto;
-    scroll-behavior: smooth;
     scroll-snap-type:y proximity;
 }
 
@@ -144,41 +120,24 @@ a:active {
     scroll-snap-align: start;
 }
 
+.gallery {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.home {
+    border: 2px solid black;
+    scroll-snap-align: start;
+}
 
 .hobbies {
-    width: inherit;
     border: 2px solid black;
-    padding: 60px 0px 60px 0px;
     scroll-snap-align: start;
 }
-
 
 .history {
-    width: inherit;
     border: 2px solid black;
-    padding: 60px 0px 60px 0px;
     scroll-snap-align: start;
-}
-
-.history img {
-    width: 100%;
-    padding-bottom: 40px;
-}
-
-.about {
-    width: inherit;
-    border: 2px solid black;
-    padding: 60px 0px 60px 0px;
-    scroll-snap-align: start;
-}
-
-.about p {
-    padding-bottom: 40px;
-}
-
-.about img {
-    width: calc(80% / 3);
-    padding-bottom: 40px;
 }
 
 .footer {
