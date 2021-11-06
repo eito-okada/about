@@ -184,6 +184,16 @@ a:active {
     display: inline-block;
 }
 
+.c1media {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.c1media img{
+    width: 100%;
+}
+
 .c2{
     width: inherit;
     border: 2px solid black;
