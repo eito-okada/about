@@ -157,7 +157,6 @@ a:active {
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
     scroll-snap-align: start;
-    height: 200px;
 }
 
 .daikanyamaJ {
@@ -201,11 +200,30 @@ a:active {
     scroll-snap-align: start;
 }
 
+.c2media {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.c2media img {
+    width: 100%;
+}
+
 .c3 {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
     scroll-snap-align: start;
+}
+.c3media {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.c3media img {
+    width: 100%;
 }
 
 .c4 {
