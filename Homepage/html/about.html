@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="../css/home.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="../slick/example.css">
-    <link rel="stylesheet" href="../cover/cover.css">
-    <link rel="stylesheet" href="../Loading/loading.scss">
-</head>
-<body>
+        <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me</title>
+        <link rel="stylesheet" href="../css/about.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../loader/loader.css">
+    </head>
+    <body>
+    <div id="splash">
+        <div id="splash_text"></div>
+        <div class="loader_cover loader_cover-up"></div>
+        <div class="loader_cover loader_cover-down"></div>
+    </div>
     <div class="header">
-        <div class="logo">
-            <a href="home.html">About Me</a>
-        </div>
+            <div class="logo">
+                <a href="home.html">About Me</a>
+            </div>
         <div class="headerbar">
             <ul>
                 <a href="home.html" class="headertab"><li id="headertab1">Home</li></a>
@@ -32,9 +36,11 @@
     <div class="main">
         <div class="sidebar">
             <ul>
-                <a href="#hobbies"><li class="sidebartab" id="sidebartab1">Hobbies</li></a>
-                <a href="#history"><li class="sidebartab" id="sidebartab2">History</li></a>
-                <a href="#about"><li class="sidebartab" id="sidebartab3">About Me</li></a>
+                <a href=""><li class="sidebartab" id="sidebartab1">Yankees</li></a>
+                <a href=""><li class="sidebartab" id="sidebartab2">Airplanes</li></a>
+                <a href=""><li class="sidebartab" id="sidebartab3">Guitar</li></a>
+                <a href=""><li class="sidebartab" id="sidebartab4">Bossa Nova</li></a>
+                <a href=""><li class="sidebartab" id="sidebartab5">BTS</li></a>
             </ul>
         </div>
         <div class="content">
@@ -42,37 +48,28 @@
                 <h2>Introduction</h2>
                 <p>Hello, my name is Eito Okada. Nice to meet you, readers!</p>
             </div>
-            <div class="hobbies" id="hobbies">
-                <h2>My Hobbies</h2>
-                <ul class="slider">
-                    <li><img src="../../Homepage/Public/home/Ski.jpeg" alt="">Skiing</li>
-                    <li><img src="../../Homepage/Public/home/Speedcubing.jpeg" alt="">Speedcubing</li>
-                    <li><img src="../../Homepage/Public/home/Bowling.jpeg" alt="">Bowling</li>
-                    <li><img src="../../Homepage/Public/home/tableTennis.jpeg" alt="">Table Tennis</li>
-                    <li><img src="../../Homepage/Public/home/Baseball.jpeg" alt="">Baseball</li>
-                </ul>
-            </div>
-            <div class="history" id="history">
-                <h2>My History</h2>
-                <img src="../../Homepage/Public/Timeline.jpeg">
-                </div>
-            <div class="about" id="about">
-                <h2>About Me</h2>
-                <img src="../../Homepage/Public/hiroogakuen.jpeg" alt="hiroo gakuen">
-                <img src="../../Homepage/Public/html.jpeg" alt="HTML">
-                <img src="../../Homepage/Public/css.jpeg" alt="CSS">
+            <div class="Yankees" id="Yankees">
+                <h2>New York Yankees</h2>
                 <p>
-                    My name is Eito Okada,
-                    and I am an M1 student in Hiroo Gakuen Middle School.
-                    <br>
-                    I like programming, and I have recently been learning the C language.
-                    I can write decent HTML and CSS code as well.
-                    <br>
-                    My dreams for the future are to enter MIT and work as a programmer.
+                    I am a huge fan of the New York Yankees (Baseball team).
+                    
                 </p>
-                <img src="../../Homepage/Public/c.jpeg" alt="C language">
-                <img src="../../Homepage/Public/mit.jpeg" alt="Massachusetts Institute of Technology">
-                <img src="../../Homepage/Public/programming.jpeg" alt="Programming">
+            </div>
+            <div class="airplanes" id="airplanes">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="guitar" id="guitar">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="bossaNova" id="bossaNova">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="bts" id="bts">
+                <h2></h2>
+                <p></p>
             </div>
         </div>
     </div>
@@ -93,12 +90,15 @@
             </div>
             <div class="footer-social">
                 <p>Follow me on social media:</p>
-                <a href="https://twitter.com/abc_cubing"><img src="../../Homepage/Public/twitter.jpeg" alt="Twitter"></a>
-                <a href="https://github.com/eito-okada"><img src="../../Homepage/Public/github.jpeg" alt="GitHub"></a>
+                <a href="https://twitter.com/abc_cubing" target="_blank"><img src="../../Homepage/Public/twitter.jpeg" alt="Twitter"></a>
+                <a href="https://github.com/eito-okada" target="_blank"><img src="../../Homepage/Public/github.jpeg" alt="GitHub"></a>
             </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="../slick/example.js"></script>
-</body>
+            <div class="footer-copyright">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+        <script src="../loader/loader.js"></script>
+    </body>
 </html>

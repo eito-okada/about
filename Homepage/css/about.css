@@ -31,16 +31,44 @@ a:active {
     background-color: #bbb;
 }
 
+
 .logo {
-    font-size: 48px;
-    text-align: center;
+    display: flex;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.logo a {
+    width: 8ch;
+    animation: typing 2s steps(8), blink .5s step-end infinite alternate;
+    animation-delay: 2s;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
 
 .headerbar ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    padding: 0px;
+    margin: 0px;
 }
 
 .headertab {
@@ -79,10 +107,12 @@ a:active {
 
 .sidebar ul {
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .sidebartab {
-    height: 238px;
+    height: calc(714px / 5);
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -91,55 +121,115 @@ a:active {
 }
 
 #sidebartab1 {
-    background-color: #777;
+    background-color: #666;
 }
 #sidebartab2 {
-    background-color: #999;
+    background-color: #777;
 }
 #sidebartab3 {
+    background-color: #888;
+}
+#sidebartab4 {
+    background-color: #999;
+}
+#sidebartab5 {
     background-color: #aaa;
 }
 
 .content {
+    height: 100%;
     width: 100%;
     overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type:y proximity;
 }
 
 .content h2 {
     padding: 40px;
 }
 
-.introduction p {
-    padding-bottom: 40px;
-}
-
-.hobbies {
+.introduction {
     width: inherit;
     border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
-.history {
+.yankees {
     width: inherit;
     border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
-.history img {
+.yankeesmedia{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.yankeesmedia img {
     width: 100%;
-    padding-bottom: 40px;
 }
 
-.about {
+.airplanes {
     width: inherit;
     border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
 }
 
-.about p {
-    padding-bottom: 40px;
+.airplanesmedia {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
 }
 
-.about img {
-    width: calc(80% / 3);
-    padding-bottom: 40px;
+.airplanesmedia img {
+    width: 100%;
+}
+
+
+.guitar {
+    width: inherit;
+    border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
+}
+
+.guitarmedia {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.guitarmedia img {
+    width: 100%;
+}
+
+.tableTennis {
+    width: inherit;
+    border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
+}
+
+.baseball {
+    width: inherit;
+    border: 2px solid black;
+    padding: 60px 0px 60px 0px;
+    scroll-snap-align: start;
+}
+
+
+.baseballmedia {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.baseballmedia img {
+    width: 100%;
 }
 
 .footer {
@@ -175,4 +265,8 @@ a:active {
     width: 40px;
     padding-left: 10px;
     float: right;
+}
+
+.footer-copyright {
+    padding-top: 240px;
 }
