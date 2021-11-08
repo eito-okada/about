@@ -207,14 +207,14 @@ a:active {
     width: 100%;
 }
 
-.tableTennis {
+.bossaNova {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
     scroll-snap-align: start;
 }
 
-.baseball {
+.bts {
     width: inherit;
     border: 2px solid black;
     padding: 60px 0px 60px 0px;
@@ -222,13 +222,13 @@ a:active {
 }
 
 
-.baseballmedia {
+.btsmedia {
     display: inline-block;
     width: 30%;
     vertical-align: top;
 }
 
-.baseballmedia img {
+.btsmedia img {
     width: 100%;
 }
 
