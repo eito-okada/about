@@ -29,15 +29,15 @@ a:active {
     position: fixed;
     z-index: 100;
     background-color: #bbb;
+	height: 10vh;
 }
 
 
 .logo {
     display: flex;
-    height: 60px;
-    display: flex;
     align-items: center;
     justify-content: center;
+	height: 82%;
 }
 
 .logo a {
@@ -69,6 +69,7 @@ a:active {
     flex-direction: row;
     padding: 0px;
     margin: 0px;
+	height: 18%;
 }
 
 .headertab {
@@ -97,12 +98,13 @@ a:active {
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 78px;
-    height: 714px;
+    top: 10vh;
+    height: 90vh;
 }
 
 .sidebar {
     width: 20%;
+	height: 90vh;
 }
 
 .sidebar ul {
@@ -112,7 +114,7 @@ a:active {
 }
 
 .sidebartab {
-    height: calc(714px / 4);
+    height: calc(90vh / 5 - 4px);
     border: 2px solid black;
     display: flex;
     justify-content: center;
