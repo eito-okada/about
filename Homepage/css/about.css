@@ -216,6 +216,16 @@ a:active {
     scroll-snap-align: start;
 }
 
+.bossaNovamedia {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.bossaNovamedia video {
+    width: 100%;
+}
+
 .programming {
     width: inherit;
     border: 2px solid black;
