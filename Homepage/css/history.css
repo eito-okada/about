@@ -114,7 +114,7 @@ a:active {
 }
 
 .sidebartab {
-    height: calc(90vh / 5 - 4px);
+    height: calc(90vh / 4 - 4px);
     border: 2px solid black;
     display: flex;
     justify-content: center;
