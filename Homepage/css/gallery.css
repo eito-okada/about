@@ -143,39 +143,42 @@ a:active {
 
 .footer {
     width: 100%;
-    height: 300px;
+    height: calc(90vh / 4);
     background-color: #bbb;
     position: relative;
-    top: 80px;
+    top: 10vh;
 }
 
 .footer-logo {
-    padding-top: 80px;
-    padding-left: 60px;
-    float: left;
-    font-size: 48px;
+    font-size: 8vh;
 }
 
 .footer-link {
-    padding-top: 80px;
-    padding-right: 60px;
-    float: right;
-    text-align: left;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-social {
-    position: absolute;
-    bottom: 20px;
-    right: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 3vh;
 }
 
 .footer-social img {
-    width: 40px;
-    padding-left: 10px;
-    float: right;
+    height: 100%;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .footer-copyright {
-    padding-top: 240px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1vh;
+}
+
+.footer-copyright img {
+    height: 2vh;
 }
