@@ -119,7 +119,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: calc(90vh / 5 / 5);
 }
 
 #sidebartab1 {

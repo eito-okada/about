@@ -114,7 +114,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: calc(90vh / 5 / 5);
 }
 
 #sidebartab1 {
@@ -185,10 +185,10 @@ a:active {
 
 .footer {
     width: 100%;
-    height: 300px;
+    height: calc(90vh - 4px);
     background-color: #bbb;
     position: relative;
-    top: 80px;
+    top: 10vh;
 }
 
 .footer-logo {
@@ -219,5 +219,5 @@ a:active {
 }
 
 .footer-copyright {
-    padding-top: 240px;
+    vertical-align: bottom;
 }
