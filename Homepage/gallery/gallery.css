@@ -16,7 +16,14 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
 .gallery img{
 	width:100%;
 	height:auto;
-	vertical-align: bottom;/*画像の下にできる余白を削除*/}
+	vertical-align: bottom;/*画像の下にできる余白を削除*/
+}
+
+.gallery video {
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
 
 /*　横幅900px以下の段組み設定　*/
 @media only screen and (max-width: 900px) {
